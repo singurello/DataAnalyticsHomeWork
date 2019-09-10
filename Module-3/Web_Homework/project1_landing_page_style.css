@@ -1,0 +1,130 @@
+
+
+/* ****************************************************************************************** */
+/* STYLING ON NAVIGATION BAR */
+/* ****************************************************************************************** */
+/* style for navigation bar  */
+
+.nav {
+  margin-top: 0;
+  text-align: right;
+  line-height: 40px;
+  
+}
+.menu {
+  margin:0 30px 0 0;
+  font-family: 'Oxygen', sans-serif;
+  margin-left: auto;
+}
+
+.menu a{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-decoration: none;
+  color: rgb(17, 51, 51);
+  clear: right;
+}
+
+/* related to hamburger settlings */
+label {
+
+  display: none;
+  margin: 0 30px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+  margin-left: auto;
+}
+
+/* to remove the checkmark */
+#toggle {
+  display: none;
+  margin-left: auto;
+}
+
+/* hamburger mune settings */
+@media only screen and (max-width: 500px) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .menu a {
+    display: block;
+    margin: 0;
+  }
+  #toggle:checked + .menu {
+    display: block;
+  }
+}
+
+
+/* ****************************************************************************************** */
+/* STYLING TOP IMAGE  */
+/* ****************************************************************************************** */
+
+
+.top_image {
+  position: relative;
+} 
+
+.centered_one{
+  position: absolute;
+  top: 17%;
+  left: 7%;
+  font-family: 'Oxygen', sans-serif;
+  color: rgb(46, 33, 33);
+  font-size: 25px;
+  text-shadow: -0.5px 0 rgb(92, 79, 79), 0 0.5px rgb(92, 79, 79), 0.5px 0 rgb(92, 79, 79), 0 -0.5px rgb(92, 79, 79);
+}
+.centered_two{
+  position: absolute;
+  bottom: 17%;
+  left: 7%;
+  font-family: 'Oxygen', sans-serif;
+  color: rgb(46, 33, 33);
+  font-size: 17px;
+  text-shadow: -0.5px 0 rgb(92, 79, 79), 0 0.5px rgb(92, 79, 79), 0.5px 0 rgb(92, 79, 79), 0 -0.5px rgb(92, 79, 79);
+
+}
+
+
+
+
+/* Styling for visualisation pictures */
+
+.col-md-6 {
+
+  padding: 10px;
+  padding-left: 20px;
+}
+
+img {
+  float: left;
+  position: relative;
+}
+
+.project_title {
+  text-align: right;
+  align-content: center;
+  float: center;
+  font-weight: bold;
+  font-size: 24;
+}
+
+
+table {
+  padding: 45;
+  border-collapse: collapse;
+  width: 80%;
+  text-align: justify;
+}

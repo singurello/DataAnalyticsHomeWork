@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project 1: home</title>
+    <meta name="discription" content="">
+    <meta name="viewport" content="width=device-width, initial=scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" \
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="project1_landing_page_style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+  
+  </head>
+
+<body background="back.png">
+<div class="container-fluid" style="width: 100% ; margin: 0 auto;">
+
+
+ <!--Header Part-->
+    <div class="row">
+        <div class="top_image">
+            <img src="pic1.png" alt="Snow" style="width:100%;">
+            <div class="centered_one">Alexander Singur</div>
+            <div class="centered_two">Lattitude Analysis Project</div>
+        </div>
+  </div>
+
+
+ <!-- navigation bar part -->
+
+    <div class="row">
+          <div class="col">
+              <div class="nav">
+                  <label for="toggle">&#9776;</label>
+                  <input type="checkbox" id="toggle"/>
+                <div class="menu">
+                  <a href="project1_landing_page.html">Home</a>
+                  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">Plots </a>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="project1_visualiztion_cloudness.html">Cloudness</a>
+                            <a class="dropdown-item" href="project1_visualiztion_humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="project1_visualiztion_temperature.html">Temperature</a>
+                            <a class="dropdown-item" href="project1_visualiztion_wind.html">Wind Speed</a>
+                          </div>
+                  <a href="project1_comparison.html">Comparison</a>
+                  <a href="project1_data.html">Data</a>
+                </div>
+              </div>
+          </div>
+      </div>
+
+
+
+
+<div class="container-fluid">
+<div class="row">
+
+  <!-- Explanation Part -->
+  <div class="col-md-7">
+        <div class="row">
+  <a class="project title">Humidity</a>
+        </div>
+<div class="row">
+
+  <img src="Latitude vs. Humidity.png" alt="Latitude vs. Humidity" style="width: 100% ">
+</div>
+ 
+  <p class="project 1 summary">
+  The purpose of this project was to analyze how wether changes as you get closer to equator.
+  To accomplish this analysys, we first pulled data from the OpenWeatherMap API to assemble
+  a dataset on over 500 cities.
+  </p>
+  <br>
+  <p class="project 1 summary">
+  After assembling the dataset, we used Matplotlib to plot vrious aspects of the weather vs lattitude. Factors we
+  looked at include: temperature, cloudness, wind speed, and humadity. The site provides the sourse data and visualisation
+  created as part of the analysis, as well as explanations and sescriptions of any trends and correlations witnessed.
+  </p>
+
+
+  </div>
+  <!-- Pictures Part -->
+  <div class="col-md-5"> <a> Visualisations </a>
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <a href="project1_visualiztion_cloudness.html"><img src="Latitude vs. Cloudiness.png" alt="project 1 pic 1" style="width: 90%;"></a>
+        </div>
+        <div class="col-md-6">
+            <a href="project1_visualiztion_humidity.html"><img src="Latitude vs. Humidity.png" alt="project 1 pic 1" style="width: 90%;"></a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <a href="project1_visualiztion_temperature.html"><img src="Latitude vs. Temperature.png" alt="project 1 pic 1" style="width: 90%;"></a>
+        </div>
+        <div class="col-md-6">
+            <a href="project1_visualiztion_wind.html"><img src="Latitude vs. Wind Speed.png" alt="project 1 pic 1" style="width: 90%;"></a>
+        </div>
+    </div>
+</div>
+
+
+      
+</div>
+</div>   
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
